@@ -1,6 +1,11 @@
 # md-cover 🖼️
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Article](https://img.shields.io/badge/Deep_Dive-Read_Post-10b981)](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
+
 A tiny CLI for Next.js / Astro Markdown blogs — searches Pexels for a landscape cover photo, downloads a pre-cropped `1600x840` optimized JPG into `public/blog/<slug>/cover.jpg`, and injects `cover`, `coverAlt`, and photographer attribution directly into your post's YAML frontmatter.
+
+> 📖 **Read the full engineering breakdown:** [Building Custom MCP Servers in TypeScript for Cursor](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
 
 Built so an AI coding agent can publish a complete, illustrated blog post from the terminal in one command.
 
