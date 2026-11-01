@@ -1,0 +1,15 @@
+{
+  "name": "md-cover",
+  "version": "1.0.0",
+  "description": "Zero-config CLI for Markdown & MDX blogs — fetches landscape cover photos from Pexels, saves optimized JPGs, and injects frontmatter attribution",
+  "type": "module",
+  "bin": {
+    "md-cover": "./src/cli.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  },
+  "keywords": ["markdown", "mdx", "nextjs", "blog", "pexels", "frontmatter", "cli"],
+  "author": "Zayne Lovecraft",
+  "license": "MIT"
+}
